@@ -3,131 +3,105 @@ n: length of array
 V: Vertices
 E: Edges
 
-
 Binary Search Algorithm//
 Speed  : O(Log(n))
-Inputs : 2
 Purpose: Finds item in sorted array
 
 Breadth First Search (BFS) Algorithm//
 Speed  : O(V + E)
-Inputs : 2
 Purpose: Finds item in tree Data structure
 Notes  : uses Queue data structure
 
 Depth First Search (DFS) Algorithm
 Speed  : O(V + E)
-Inputs : 2
 Purpose: Finds item in tree Data structure
 Notes  : uses Stack data structure
 
 Merge Sort Algorithm
 Speed  : O(n * Log(n))
-Inputs : 1
 Purpose: Sorts an unsorted array
 
 Quicksort Algorithm
 Speed  : O(Log(n))
-Inputs : 1
 Purpose: Sorts an unsorted array
 
 Kruskal’s Algorithm
-Speed  : O(E * log(v))
-Inputs : 1
+Speed  : O(E * log(V))
 Purpose: Finds a minimum spanning forest of an undirected edge-weighted graph
 Notes  : It is a greedy algorithm in graph theory
 
 Floyd Warshall Algorithm
-Speed  :
-Inputs :
-Purpose:
+Speed  : O(n^3)
+Purpose: Finds shortest path between all pairs of vertices, negative edges allowed
 
 Dijkstra’s Algorithm
 Speed  :
-Inputs :
-Purpose:
+Purpose: Finds shortest path from one node to all nodes
 
 Bellman Ford Algorithm
 Speed  :
-Inputs :
-Purpose:
+Purpose: Find shortest path from one node to all nodes, negative edges allowed
 
 Kadane’s Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Lee Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Flood Fill Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Floyd’s Cycle Detection Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Union Find Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Topological Sort Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 KMP Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Insertion Sort Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Selection Sort Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Counting Sort Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Heap Sort Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Kahn’s Topological Sort Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Huffman Coding Compression Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Quickselect Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Boyer–Moore Majority Vote Algorithm
 Speed  :
-Inputs :
 Purpose:
 
 Euclid’s Algorithm
 Speed  :
-Inputs :
 Purpose:
