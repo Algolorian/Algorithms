@@ -1,7 +1,11 @@
 Variables:
 n: length of array
+W: Width of array
+D: Depth of array
 V: Vertices
 E: Edges
+l: length of loop
+k: The range of elements in the array
 
 Binary Search Algorithm//
 Speed  : O(Log(n))
@@ -35,73 +39,75 @@ Speed  : O(n^3)
 Purpose: Finds shortest path between all pairs of vertices, negative edges allowed
 
 Dijkstra’s Algorithm
-Speed  :
+Speed  : O(E * log(V))
 Purpose: Finds shortest path from one node to all nodes
 
 Bellman Ford Algorithm
-Speed  :
+Speed  : O(V ^ 3)
 Purpose: Find shortest path from one node to all nodes, negative edges allowed
 
 Kadane’s Algorithm
-Speed  :
-Purpose:
+Speed  : O(n)
+Purpose: Find maximum subarray sum
 
 Lee Algorithm
-Speed  :
-Purpose:
+Speed  : O(W * D)
+Purpose: Find shortest path between two coordinates in maze
 
 Flood Fill Algorithm
-Speed  :
-Purpose:
+Speed  : O(W * D)
+Purpose: Find shortest path between two coordinates in maze
 
 Floyd’s Cycle Detection Algorithm
-Speed  :
-Purpose:
+Speed  : O(n - l)
+Purpose: Detects loop in linked list
 
 Union Find Algorithm
-Speed  :
-Purpose:
+Speed  : O(1)
+Purpose: To union multiple arrays and find items in an array
 
 Topological Sort Algorithm
-Speed  :
-Purpose:
+Speed  : O(V + E)
+Purpose: Finding the critical path of the project
+Notes  : Topological sort is a greedy algorithm
 
 KMP Algorithm
-Speed  :
-Purpose:
+Speed  : O(n)
+Purpose: Find a "Pattern" in a "Text"
 
 Insertion Sort Algorithm
-Speed  :
-Purpose:
+Speed  : O(n ^ 2)
+Purpose: Sorts an unsorted array
 
 Selection Sort Algorithm
-Speed  :
-Purpose:
+Speed  : O(n ^ 2)
+Purpose: Sorts an unsorted array
 
 Counting Sort Algorithm
-Speed  :
-Purpose:
+Speed  : O(n + k)
+Purpose: Sorts an unsorted array
 
 Heap Sort Algorithm
-Speed  :
-Purpose:
+Speed  : O(n * log(n))
+Purpose: it's used when the smallest (shortest) or highest (longest) value is needed instantly
 
 Kahn’s Topological Sort Algorithm
-Speed  :
-Purpose:
+Speed  : O(V + E)
+Purpose: To perform a topological sort on a directed acyclic graph
 
 Huffman Coding Compression Algorithm
-Speed  :
-Purpose:
+Speed  : O(n * log(n))
+Purpose: Lossless data compression
 
 Quickselect Algorithm
-Speed  :
-Purpose:
+Speed  : O(n ^ 2)
+Purpose: To find the kth smallest element in an unordered list
+Notes  : It is related to the quicksort algorithm and developed by Tony Hoare, aka Hoare's selection algorithm
 
 Boyer–Moore Majority Vote Algorithm
-Speed  :
-Purpose:
+Speed  : O(n)
+Purpose: To find the majority element among the given sequence of elements which occurs more than N/2 times
 
 Euclid’s Algorithm
-Speed  :
-Purpose:
+Speed  : O(log(min(a, b))  # a and b being the two integers
+Purpose: For quickly finding the GCD of two integers
